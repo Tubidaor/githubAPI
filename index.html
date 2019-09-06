@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Github User Search</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <main>
+      <h1>Github Username Search</h1>
+      <form>
+      <input class="search" type="text" onfocus="this.value=''"value="Username">
+      <input type="submit" class="submit" value="Get Repos">
+      </form>
+      <section class="hidden">
+      <H2>Here are the results</H2>
+      <ul class="results">
+      </ul>
+      </section>
+    </main>
+    <Script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </Script>
+    <script src="index.js"></script>
+  </body>
+</html>
